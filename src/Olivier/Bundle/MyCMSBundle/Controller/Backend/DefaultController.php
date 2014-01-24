@@ -8,6 +8,6 @@ class DefaultController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('OlivierMyCMSBundle:Backend:index.html.twig', array('name' => 'okkk'));
+        return $this->render('OlivierMyCMSBundle:Backend:index.html.twig');
     }
 }

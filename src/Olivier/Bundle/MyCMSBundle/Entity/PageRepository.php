@@ -4,7 +4,7 @@ namespace Olivier\Bundle\MyCMSBundle\Entity;
 
 use Doctrine\ORM\EntityRepository;
 
-use Olvier\Bundle\MyCMSBundle\Entity\Page;
+//use Olvier\Bundle\MyCMSBundle\Entity\Page;
 
 /**
  * PageRepository
@@ -14,12 +14,6 @@ use Olvier\Bundle\MyCMSBundle\Entity\Page;
  */
 class PageRepository extends EntityRepository
 {
-    protected $entityManager;
-
-    public function __construct(EntityManager $entityManager)
-    {
-        $this->entityManager = $entityManager;
-    }
 
     public function getAllPages()
     {
