@@ -1,0 +1,7 @@
+backend_index:
+    pattern:  /
+    defaults: { _controller: OlivierMyCMSBundle:Backend/Default:index }
+
+#olivier_my_cms_homepage:
+#    pattern:  /hello/{name}
+#    defaults: { _controller: OlivierMyCMSBundle:Default:index }

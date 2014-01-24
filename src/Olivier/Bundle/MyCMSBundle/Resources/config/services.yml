@@ -1,0 +1,7 @@
+parameters:
+#    olivier_my_cms.example.class: Olivier\Bundle\MyCMSBundle\Example
+
+services:
+#    olivier_my_cms.example:
+#        class: %olivier_my_cms.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

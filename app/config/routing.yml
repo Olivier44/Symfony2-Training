@@ -1,0 +1,4 @@
+OlivierMyCMSBundle_backend:
+    resource: "@OlivierMyCMSBundle/Resources/config/routing.yml"
+    prefix:   /admin
+
